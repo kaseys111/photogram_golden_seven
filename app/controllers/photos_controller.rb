@@ -71,6 +71,6 @@ class PhotosController < ApplicationController
 
     i.save
 
-    redirect_to("http://localhost:3000")
+    redirect_to("http://localhost:3000/photos/" + id)
   end
 end
